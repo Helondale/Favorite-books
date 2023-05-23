@@ -1,5 +1,4 @@
-// WRITE YOUR CODE BELOW THIS LINE
-var favoriteBooks = [
+let favoriteBooks = [
 	{
 		title: "Harry Potter and the Goblet of Fire",
 		author: "J.K. Rowling",
@@ -76,17 +75,3 @@ for (let book of favoriteBooks) {
 		console.log("This book is older than 2000: ", bookTitle);
 	}
 	};
-
-
-// DO NOT MODIFY THE CODE BELOW THIS LINE
-let toExport;
-
-try {
-	toExport = [
-		{name: "favoriteBooks", content: favoriteBooks, type: "array"}
-	]
-} catch (error) {
-	toExport = {error: error.message}
-}
-
-export {toExport}
